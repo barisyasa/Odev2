@@ -12,6 +12,6 @@ public class Person {
     }
 
     public int calculate() {
-        return (this.workedDay >= 25) ? this.workedDay * (this.dailyPrice+prim) : this.workedDay * this.dailyPrice;
+        return (this.workedDay >= 25) ? this.workedDay * (this.dailyPrice + prim) : this.workedDay * this.dailyPrice;
     }
 }
